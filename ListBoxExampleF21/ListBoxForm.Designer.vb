@@ -31,10 +31,11 @@ Partial Class ListBoxForm
         '
         'ListBox1
         '
+        Me.ListBox1.Font = New System.Drawing.Font("Consolas", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ListBox1.FormattingEnabled = True
         Me.ListBox1.Location = New System.Drawing.Point(312, 66)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(447, 277)
+        Me.ListBox1.Size = New System.Drawing.Size(783, 433)
         Me.ListBox1.TabIndex = 0
         '
         'ComboBox1
@@ -47,7 +48,7 @@ Partial Class ListBoxForm
         '
         'UpdateButton
         '
-        Me.UpdateButton.Location = New System.Drawing.Point(469, 349)
+        Me.UpdateButton.Location = New System.Drawing.Point(805, 515)
         Me.UpdateButton.Name = "UpdateButton"
         Me.UpdateButton.Size = New System.Drawing.Size(142, 71)
         Me.UpdateButton.TabIndex = 2
@@ -56,7 +57,7 @@ Partial Class ListBoxForm
         '
         'ExitButton
         '
-        Me.ExitButton.Location = New System.Drawing.Point(617, 349)
+        Me.ExitButton.Location = New System.Drawing.Point(953, 515)
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(142, 71)
         Me.ExitButton.TabIndex = 3
@@ -74,7 +75,7 @@ Partial Class ListBoxForm
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(800, 450)
+        Me.ClientSize = New System.Drawing.Size(1107, 609)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.ExitButton)
         Me.Controls.Add(Me.UpdateButton)
